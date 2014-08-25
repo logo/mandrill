@@ -1,21 +1,2 @@
-
-/**
- * Mandrill logo.
- */
-
-.logo[data-logo="Mandrill"] {
-  width: 5.313746499799988em;
-}
-
-.logo[data-logo="Mandrill"] > * {
-  background-image: url(images/logo.svg);
-  margin: 0;
-}
-
-.logo[data-logo="Mandrill"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Mandrill"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
